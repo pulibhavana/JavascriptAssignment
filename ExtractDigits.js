@@ -16,4 +16,4 @@ function main()
     number = 20345
     console.log(extract(number))
 }
-input()
+main()
