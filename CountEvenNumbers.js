@@ -18,11 +18,11 @@ function main() {
     var numbers = [10, 35, 54, 27, 1, 8];
     console.log("The given list is " + numbers)
     console.log("The count of even numbers in the list is")
-    result = numbers.filter(checkIfIsEven)
+    result = numbers.filter(checkIfEven)
     console.log(result.length)
 }
 
-function checkIfIsEven(element)
+function checkIfEven(element)
 {
     return element % 2 == 0
 }
